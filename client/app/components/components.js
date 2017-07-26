@@ -1,8 +1,8 @@
+import angular from 'angular';
+    import SearchcomponentModule from './searchcomponent/searchcomponent.module';
 
-        import angular from 'angular';
+const ComponentsModule = angular.module('app.components',[
+       SearchcomponentModule.name 
+]);
 
-        const ComponentsModule = angular.module('app.components', [
-
-      ]);
-
-      export default ComponentsModule;
+export default ComponentsModule;

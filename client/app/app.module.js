@@ -7,6 +7,9 @@ import ComponentsModule from './components/components';
 angular
 .module('app', [ComponentsModule.name])
   .component('app', appComponent)
-  .component("helloWorld",{
-      template: 'Hello World!'
-  });
+  .component('searchcomponent', {})
+  ;
+
+
+  //.component("helloWorld",{template: 'Hello World!'})
+  //.component("appbody",{template: 'appBody'})
